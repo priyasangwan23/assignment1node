@@ -19,7 +19,7 @@ const students = [
 
 // ROOT ROUTE
 app.get("/", (req, res) => {
-  res.send("Student CGPA API is running successfully 🚀");
+  res.send("Student CGPA API is running");
 });
 
 // 1. Get all students
